@@ -1,0 +1,3 @@
+1.Because at the line 5 there exists a throw but the compiler does not know what to throw that makes the program terminates without showing "I love C++".
+2.The following program does show "I love C++".Because from the exception handling loop (line 5 to 9) there will execute the "exception caught" because the throw is a float number so it matchs the try catch loop. then going down then output the "I love C++" then the program will terminates.
+3.To compile this program just type make at the command line.First I copied all the file from lab7 then just making a little bit different by using exception handling,I am just changing the genMino.cpp part because only there exists the new operator so it is.
